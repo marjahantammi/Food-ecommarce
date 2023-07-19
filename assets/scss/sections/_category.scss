@@ -1,0 +1,74 @@
+
+@use '../custom' as *;
+
+.category{
+  
+  padding: 60px 0px;
+
+  .product-tittle{
+    padding: 60px 0;
+    text-align: center;
+
+    h4{
+      font-size: 38px;
+      @media (max-width: 576px) {
+        font-size: 30px;
+        text-align: center;
+        display: block;
+      }
+      font-size: 48px;
+    }
+
+    p{
+
+     
+      @media (max-width: 576px) {
+        font-size: 15px;
+        text-align: center;
+        display: block;
+      }
+      @media (max-width: 768px) {
+        font-size: 15px;
+        text-align: center;
+        display: block;
+      }
+      color: grey;
+    }
+  }
+    .card{
+
+      align-items: center;
+      margin: 20px auto;
+
+      img{
+        height: 150px;
+        width: 150px;
+      }
+      .card-body{
+
+        .card-title{
+          font-size: 25px;
+          text-align: center;
+          margin-bottom: 20px;
+        }
+
+        button{
+          border: 0;
+          background-color: green;
+          padding: 8px 32px;
+          border-radius: 50px;
+
+          .view-all-btn{
+            
+            color: #fff;
+            text-decoration: none;
+            margin: 90px auto;
+
+          }
+        }
+
+      }
+    }
+  } 
+
+

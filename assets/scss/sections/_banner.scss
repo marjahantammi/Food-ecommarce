@@ -1,0 +1,84 @@
+
+section.banner {
+
+  padding: 60px 0;
+  
+    
+    .item {
+
+      display: flex;
+      margin: 10px auto;
+
+      @media (max-width: 576px) {
+
+        display: block;
+        margin: 10px auto;
+        
+      }
+      
+      background: #ccc;
+      padding: 20px;
+
+      .text {
+        width: auto;
+
+        @media (max-width: 576px) {
+          font-size: 20px;
+          line-height: 51px;
+          text-align: center;
+          display: block;
+          }
+
+        h2 {
+
+          font-size: 36px;
+          line-height: 51px;
+          text-shadow: 1px 1px 1px #4444;
+
+          @media (max-width: 575px) {
+          font-size: 20px;
+          align-items: center;
+          }
+        }
+        a.order-now {
+          background: #198754;
+          padding: 8px 29px;
+          border-radius: 50px;
+          color: #fff;
+
+          @media (max-width: 576px) {
+            background: #198754;
+            border-radius: 50px;
+            color: #fff;
+           }
+
+           @media (max-width: 1024px) {
+          background: #198754;
+          border-radius: 50px;
+          color: #fff;
+           }
+        }
+        }
+      }
+
+      .apple_img{
+        max-width: 250px;
+        width: 100%;
+      }
+
+      img {
+        object-fit: cover;
+
+        @media (max-width: 576px) {
+          
+        }
+        @media (max-width: 768px) {
+
+        }
+        @media (max-width: 1024px) {
+
+          
+        }
+      }
+    }
+  

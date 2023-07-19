@@ -1,0 +1,15 @@
+
+@use '../custom' as *;
+@use '../componets/mixins' as *;
+
+a.btn-order-now{
+    font-size: 18px;
+    background: #fd7e1438;
+    padding: 10px 49px;
+    border-radius: 50px;
+    color: #ff9944;
+    font-weight: 600;
+    &:hover{
+      box-shadow: 2px 2px 5px rgba(255, 153, 68, 0.51);
+    }
+  }
